@@ -10,7 +10,7 @@ When I read [Taylor Otwell](https://github.com/taylorotwell)'s "How I Work" [med
 ## Installation
 
 ```
-Plug 'mvpopuk/inspired-github'
+Plug 'mvpopuk/inspired-github.vim'
 ```
 
 ## Contributing
