@@ -58,9 +58,6 @@ hi link Conditional           Keyword
 hi link Repeat                Keyword  
 hi link cType                 Keyword  
 
-" LSP Signature
-hi NormalFloat                guibg=None
-
 " Git
 hi DiffText                   guibg=None guifg=blue
 hi DiffAdd                    guibg=None guifg=green
