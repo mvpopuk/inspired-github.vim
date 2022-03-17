@@ -24,14 +24,14 @@ hi Comment                    guifg=#969896 guibg=None guisp=None gui=italic cte
 hi Constant                   guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Cursor                     guifg=None guibg=#ca1243 guisp=None gui=None ctermfg=None ctermbg=236 cterm=None
 hi CursorLine                 guifg=None guibg=#f5f5f5 guisp=None gui=None ctermfg=None ctermbg=255 cterm=None
-hi Function                   guifg=#795da3 guibg=None guisp=None gui=bold ctermfg=97 ctermbg=None cterm=bold
+hi Function                   guifg=#795da3 guibg=None guisp=None ctermfg=97 ctermbg=None
 hi Identifier                 guifg=#323232 guibg=None guisp=None gui=None ctermfg=236 ctermbg=None cterm=None
-hi Keyword                    guifg=#a71d5d guibg=None guisp=None gui=bold ctermfg=125 ctermbg=None cterm=bold
+hi Keyword                    guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None
 hi LineNr                     guifg=None guibg=None guisp=None gui=None ctermfg=None ctermbg=None cterm=None
 hi Normal                     guifg=#323232 guibg=#ffffff guisp=None gui=None ctermfg=236 ctermbg=15 cterm=None
 hi Number                     guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Search                     guifg=#323232 guibg=#f8eec7 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
-hi StorageClass               guifg=#a71d5d guibg=None guisp=None gui=bold ctermfg=125 ctermbg=None cterm=bold
+hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None 
 hi String                     guifg=#183691 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
 hi Type                       guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Visual                     guifg=None guibg=#f8eec7 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
@@ -57,6 +57,9 @@ hi Error                      guibg=None guifg=#ca1243
 hi link Conditional           Keyword  
 hi link Repeat                Keyword  
 hi link cType                 Keyword  
+
+" LSP Signature
+hi NormalFloat                guibg=None
 
 " Git
 hi DiffText                   guibg=None guifg=blue
