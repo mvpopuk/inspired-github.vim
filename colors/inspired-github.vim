@@ -6,8 +6,8 @@
 " Note: Based on the GitHub theme for Sublime Text
 
 hi clear
-
 set background=light
+
 if version > 580
 	if exists("syntax_on")
 		syntax reset
@@ -18,7 +18,6 @@ set t_Co=256
 let g:colors_name="inspired-github"
 
 " Syntax
-
 hi Character                  guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Comment                    guifg=#969896 guibg=None guisp=None gui=italic ctermfg=246 ctermbg=None cterm=italic
 hi Constant                   guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
@@ -35,6 +34,16 @@ hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ct
 hi String                     guifg=#183691 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
 hi Type                       guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Visual                     guifg=None guibg=#f8eec7 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
+
+" HTML-specific
+hi TSTag                      guifg=#519647
+hi htmlTag                    guifg=#519647
+hi TSTagAttribute             guifg=#6a0dad
+hi htmlTagAttribute           guifg=#6a0dad
+
+" PHP-specific
+hi link phpTSOperator         Keyword
+hi link phpOperator         Keyword
 
 " General
 hi MatchParen                 guibg=#dddddd
@@ -57,8 +66,32 @@ hi Error                      guibg=None guifg=#ca1243
 hi link Conditional           Keyword  
 hi link Repeat                Keyword  
 hi link cType                 Keyword  
+hi link Folded                Comment
+hi link IncSearch             Search
+hi link Macro                 Function
+hi link NonText               Comment
+hi link Operator              None
+hi link TSComment             Comment
+hi link TSConstBuiltin        TSVariableBuiltin
+hi link TSConstant            Constant
+hi link TSField               Constant
+hi link TSFloat               Number
+hi link TSFunction            Function
+hi link TSKeyword             Keyword
+hi link TSLabel               Type
+hi link TSNamespace           TSType
+hi link TSNumber              Number
+hi link TSParameter           Constant
+hi link TSParameterReference  TSParameter
+hi link TSProperty            TSField
+hi link TSPunctSpecial        TSPunctDelimiter
+hi link TSString              String
+hi link TSTagDelimiter        None
+hi link TSType                Type
+hi link TelescopeNormal       Normal
+hi link Whitespace            Comment
 
-" LSP Signature
+" Lsp Signature
 hi NormalFloat                guibg=None
 
 " Git
