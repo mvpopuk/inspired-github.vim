@@ -32,7 +32,7 @@ hi Number                     guifg=#0086b3 guibg=None guisp=None gui=None cterm
 hi Search                     guifg=#323232 guibg=#f8eec7 guisp=None gui=None ctermfg=236 ctermbg=230 cterm=None
 hi StorageClass               guifg=#a71d5d guibg=None guisp=None ctermfg=125 ctermbg=None 
 hi String                     guifg=#183691 guibg=None guisp=None gui=None ctermfg=24 ctermbg=None cterm=None
-hi Type                       guifg=#0086b3 guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
+hi Type                       guifg=None guibg=None guisp=None gui=None ctermfg=31 ctermbg=None cterm=None
 hi Visual                     guifg=None guibg=#f8eec7 guisp=None gui=None ctermfg=None ctermbg=230 cterm=None
 
 " HTML-specific
@@ -41,12 +41,8 @@ hi htmlTag                    guifg=#519647
 hi TSTagAttribute             guifg=#6a0dad
 hi htmlTagAttribute           guifg=#6a0dad
 
-" PHP-specific
-hi link phpTSOperator         Keyword
-hi link phpOperator         Keyword
-
 " General
-hi MatchParen                 guibg=#dddddd
+hi MatchParen                 guibg=None guifg=#ca1243 gui=bold
 hi EndOfBuffer                guifg=#ffffff
 hi Pmenu                      guibg=#F2F2F2
 hi PmenuSel                   guibg=#DDDDDD
