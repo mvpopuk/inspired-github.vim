@@ -2,7 +2,7 @@
 # ✨ Inspired Github
 
 <p align="center">
-  <img src="/screenshots/php.png" />
+  <img src="https://user-images.githubusercontent.com/35864222/162174274-59b2d412-5d47-408e-923b-b950302e84a3.png" />
 </p>
 
 When I read [Taylor Otwell](https://github.com/taylorotwell)'s "How I Work" [medium post](https://medium.com/@taylorotwell/how-i-work-october-2018-edition-e66a09931e7f) (back in 2018) I fell in love with the theme he was using - Inspired Github color scheme for Sublime by [Seth Lopez](https://github.com/sethlopezme). I was using that theme ever since. When I moved to Vim I wasn't able to use it anymore so I made a port for it. Enjoy!
@@ -25,7 +25,7 @@ I mostly use Kitty so a [kitty theme](/inspired-github.conf) is available. I als
 #### Lualine
 
 <p align="center">
-  <img src="/screenshots/lualine.png" />
+  <img src="https://user-images.githubusercontent.com/35864222/162174549-62664d79-8d7a-4e6d-be65-c2ab59e3f0fd.png" />
 </p>
 
 If you want the same `lualine` config as the one in the screenshots you can copy / paste or modify [my config file](/config/lualine.lua). Please note that if you're using iTerm and a line height more than 100, the separators will not be correctly shown so you can use [these separators](https://github.com/mvpopuk/inspired-github.vim/blob/main/config/lualine.lua#L51) instead.
@@ -33,7 +33,7 @@ If you want the same `lualine` config as the one in the screenshots you can copy
 #### Tmux
 
 <p align="center">
-  <img src="/screenshots/tmux.png" />
+  <img src="https://user-images.githubusercontent.com/35864222/162174573-d5e79abc-79c4-468c-874b-8bea2d875b99.png" />
 </p>
 
 I also created a minimal [tmux theme](inspired_github.tmux.conf) to match the overall look and feel of the theme. For more tmux configs check [my dotfiles](https://github.com/mvpopuk/dotfiles/blob/main/tmux/.tmux.conf)
@@ -46,20 +46,20 @@ If you're using `bufferline` you can find [the highlights I am using](https://gi
 
 <p align="center">
   <span>PHP</span>
-  <img src="/screenshots/php.png" alt="PHP" />
+  <img src="https://user-images.githubusercontent.com/35864222/162174274-59b2d412-5d47-408e-923b-b950302e84a3.png" alt="PHP" />
 </p>
 
 <p align="center">
   <span>Blade</span>
-  <img src="/screenshots/blade.png" alt="Blade" />
+  <img src="https://user-images.githubusercontent.com/35864222/162174351-8bbdd7c8-3c8a-4b4e-8d3b-0c69938dc49d.png" alt="Blade" />
 </p>
 
 <p align="center">
   <span>CSS</span>
-  <img src="/screenshots/css.png" alt="CSS" />
+  <img src="https://user-images.githubusercontent.com/35864222/162174479-5e59ebca-bcbb-4276-86de-12d0ae950450.png" alt="CSS" />
 </p>
 
 <p align="center">
   <span>VUE & HTML</span>
-  <img src="/screenshots/vue.png" alt="Vue & HTML" />
+  <img src="https://user-images.githubusercontent.com/35864222/162174425-5b16d3fe-eaca-49ce-ac3b-11d680d1340c.png" alt="Vue & HTML" />
 </p>
