@@ -46,7 +46,7 @@ hi MatchParen                 guibg=None guifg=#ca1243 gui=bold
 hi EndOfBuffer                guifg=#ffffff
 hi Pmenu                      guibg=#F2F2F2
 hi PmenuSel                   guibg=#DDDDDD
-hi CursorLineNr               guifg=#6D6D6D guibg=#F2F2F2   
+hi CursorLineNr               guifg=#6D6D6D guibg=#FFFFFF   
 hi SignColumn                 guifg=None guibg=None 
 hi LineNr                     guifg=#BFC4C3 guibg=None
 hi ColorColumn                guibg=#f5f5f5
@@ -97,7 +97,7 @@ hi DiffDelete                 guibg=None guifg=red
 hi DiffChange                 guibg=None guifg=yellow
 
 " [ Plugin ] - Indent Blankline
-hi IndentBlanklineChar        guifg=#F2F2F2 gui=nocombine
+hi IndentBlanklineChar        guifg=#BFC4C3 gui=nocombine
 hi IndentBlanklineContextChar guifg=#BFC4C3 gui=nocombine
 
 " [ Plugin ] - Signify
