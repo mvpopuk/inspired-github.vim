@@ -58,6 +58,7 @@ hi StatusLineNC               guifg=#ffffff
 hi NonText                    guibg=None guifg=#ca1243
 hi SpecialKey                 guibg=None guifg=#ca1243
 hi Error                      guibg=None guifg=#ca1243
+hi VertSplit                  guibg=None
 
 hi link Conditional           Keyword  
 hi link Repeat                Keyword  
