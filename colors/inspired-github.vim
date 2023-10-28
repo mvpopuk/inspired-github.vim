@@ -98,13 +98,23 @@ hi DiffDelete                 guibg=None guifg=red
 hi DiffChange                 guibg=None guifg=yellow
 
 " [ Plugin ] - Indent Blankline
-hi IndentBlanklineChar        guifg=#BFC4C3 gui=nocombine
-hi IndentBlanklineContextChar guifg=#BFC4C3 gui=nocombine
+hi IblIndent                  guifg=#eeeeee gui=nocombine
 
 " [ Plugin ] - Signify
 hi SignifySignAdd             ctermbg=none guifg=#3BB544
 hi SignifySignChange          ctermbg=none guifg=#FCDF20
 hi SignifySignDelete          ctermbg=none guifg=#ca1243
+
+" [ Plugin ] - Telescope
+hi TelescopeBorder            guifg=#eeeeee
+hi TelescopePromptBorder      guifg=#eeeeee
+hi TelescopeResultsBorder     guifg=#eeeeee
+hi FloatermBorder             guibg=None guifg=#eeeeee
+
+" [ Plugin ] - CMP
+hi PmenuThumb                 guibg=#eeeeee
+hi CmpPmenuBorder             guifg=#eeeeee
+
 
 " TODO 
 " git modified liner nr foreground when pane is inactive
